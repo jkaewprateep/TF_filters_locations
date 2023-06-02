@@ -1,6 +1,7 @@
 # TF_filters_locations
 Find location of object by using Tensorflow filters
 
+🧸💬 For tracking location on the screen as we see from many applications or games is very easy but many APIs are released with many features and we could implement them later but we need to understand the concept first.
 
 ## Sample ball location on screen ##
 
