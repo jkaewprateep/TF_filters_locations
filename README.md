@@ -31,7 +31,7 @@ image_in_process = final_layer
 ```
 
 ### Target ball location X and Y ###
-
+👧💬 Re-location is easy because we do it since the pre-process, you can consider as cylindrical property in mathematics and convolutional layer but to perform real-image we use masking or scanning method..
 ```
 final_layer = tf.math.argmax( image_in_process, axis=0, output_type=tf.dtypes.int32, name="max_x" )
 final_layer = tf.math.argmax( final_layer, axis=0, output_type=tf.dtypes.int32, name="max_x" )
@@ -41,7 +41,7 @@ final_layer_2 = tf.math.argmax( final_layer_2, axis=0, output_type=tf.dtypes.int
 ```
 
 ## Sample ball location on screen ##
-
+🐑💬 Now we can have output as X and Y co-ordinates we can create functions to perform actions or predictions in advance more than intercept of the balls but we have more time for the possibility we can create by the later ability we can develop our source to.
 ![alt text](https://github.com/jkaewprateep/TF_filters_locations/blob/main/Simple%20Filter%20locations.gif)
 
 ## Files and Directory ##
@@ -53,5 +53,5 @@ Simple Filter locations.gif | Image file, 2D location from the ball location |
 README.md | Readme file |
 
 ## Accumulation of ball direction on screen ##
-
+🐬🥀💬 For considering image input the advantage over time series input is we do not need to modify the input but the model can learn from the actual object and reflection screen. This method can create more accuracy than input coordinates when apply to the right sciences and this method is visualize method where the monitor, rulers, and model are in the same domain.
 ![alt text](https://github.com/jkaewprateep/TF_filters_locations/blob/main/Simple%20Filter%20locations_0.gif)
