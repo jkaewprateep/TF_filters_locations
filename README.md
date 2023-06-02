@@ -13,7 +13,7 @@ image_resized = tf.image.resize( image, size=( 32, 32 ), method=tf.image.ResizeM
 ```
 
 ### Remove tuck players - remain ball on the screen ###
-🦭💬 We know that the tuck player is the cylindrical shape or rectangular shape we do Normalization and filter out the result is only a ball running on the screen.
+🐬🥀💬 We know that the tuck player is the cylindrical shape or rectangular shape we do Normalization and filter out the result is only a ball running on the screen.
 ```
 layer_1 = tf.keras.layers.Normalization(mean=3., variance=2.)( image_resized )
 layer_2 = tf.keras.layers.Normalization(mean=4., variance=6.)( layer_1 )
