@@ -23,7 +23,7 @@ layer_3 = tf.keras.layers.Conv2D(32, (3, 3), activation='relu')( image )
 ```
 
 ### Reduce dimensions of the image output / channels ###
-
+🧸💬 When we are working with the convolutional layer they provide many benefits of filtering and channels dependency work of an image we can perform individual tasks on specific channels frequency, before we display we need to combine them into an image format.
 ```
 final_layer = tf.keras.layers.Conv2D(1, (2, 1), activation='relu')( layer_3 )
 final_layer = tf.squeeze( final_layer, axis=0, name="squeeze" )
