@@ -1,7 +1,8 @@
 # TF_filters_locations
 Find location of object by using Tensorflow filters
 
-🧸💬 For tracking location on the screen as we see from many applications or games is very easy but many APIs are released with many features and we could implement them later but we need to understand the concept first.
+🧸💬 For tracking location on the screen as we see from many applications or games is very easy but many APIs are released with many features and we could implement them later but we need to understand the concept first. <br>
+👧💬 To achevement of our goals by intercepting the ball with acceleration from byside, we need to locate the ball in the current and tracking location for prediction of the target distance and actions to perform. ```actions = { "up": K_w, "none": K_h, "down": K_s }```
 
 ### Pre-process image for filters ###
 ```
