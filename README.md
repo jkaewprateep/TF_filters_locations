@@ -31,7 +31,7 @@ image_in_process = final_layer
 ```
 
 ### Target ball location X and Y ###
-👧💬 Re-location is easy because we do it since the pre-process, you can consider as cylindrical property in mathematics and convolutional layer but to perform real-image we use masking or scanning method..
+👧💬 Re-location is easy because we do it since the pre-process, you can consider as cylindrical property in mathematics and convolutional layer but to perform real-image we use masking or scanning method.
 ```
 final_layer = tf.math.argmax( image_in_process, axis=0, output_type=tf.dtypes.int32, name="max_x" )
 final_layer = tf.math.argmax( final_layer, axis=0, output_type=tf.dtypes.int32, name="max_x" )
