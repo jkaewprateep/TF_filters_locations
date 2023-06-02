@@ -5,6 +5,7 @@ Find location of object by using Tensorflow filters
 👧💬 To achevement of our goals by intercepting the ball with acceleration from byside, we need to locate the ball in the current and tracking location for prediction of the target distance and actions to perform. ```actions = { "up": K_w, "none": K_h, "down": K_s }```
 
 ### Pre-process image for filters ###
+🐑💬 The inputs can be from many target sizes of the player screen, one way is to compact information within scope and we can restore information with lossy/lossless method after testing the input to requirements. The lossy method is the method compress images with target information remaining when lossless is the method to remain most of the information. TF.resize is the lossy method, and an example of the lossless method is lossless encodings or vectors image.
 ```
 image = tf.keras.utils.img_to_array( image, data_format="channels_last" )
 image_resized = tf.image.resize( image, size=( 32, 32 ), method=tf.image.ResizeMethod.BILINEAR, 
